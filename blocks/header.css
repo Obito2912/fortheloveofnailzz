@@ -1,0 +1,46 @@
+.header {
+    display: grid;
+    justify-content: center;
+    padding: 10px 0 20px;
+}
+
+.header__block {
+    max-width: 700px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid black;
+    padding: 0 50px;
+}
+
+.header__logo {
+    width: 200px;
+    justify-self: start;
+}
+
+.header__search {
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-self: center;
+}
+
+.header__search_svg {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.header__search_input {
+    font-size: 18px;
+    width: 250px;
+    outline: none;
+    padding: 5px;
+}
+
+.header__search_button {
+    cursor: pointer;
+    font-size: 18px;
+    width: 70px;
+    padding: 0;
+    padding: 5px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassidy Lugo | ForTheLoveOfNailzz</title>
+    <meta name="description" content="High Quality Nails in Layton, Utah">
+    <meta name="author" content="Ovinson Lugo">
+    <link rel="stylesheet" href="pages/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__block">
+            <img class="header__logo" src="images/logo.jpg" alt="ForTheLoveOfNailzz Logo">
+            <div class="header__search">
+                <img class="header__search_svg" src="images/mag-glass.svg" alt="Magnifying Glass">
+                <input class="header__search_input" type="text">
+                <button class="header__search_button">Search</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <a href="#">Booking</a>
+        <a href="#">Help</a>
+        <a href="#">Reviews</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <main>
+        <section class="highlight">
+            <span>•</span>
+            <video class="highlight__video" 
+            src="media/test-kimetsu.mp4" 
+            controls 
+            type="video/mp4" 
+            autoplay 
+            muted 
+            loop>
+            </video>
+            <span>•</span>
+        </section>
+        <div class="carousel">
+            <h1 class="carousel__title">Your styles | Your nails | your options ...And more</h1>
+            <button class="carousel__button carousel__button-left">
+                <img src="./images/left-arrow.svg" alt="slide-left">
+            </button>
+            <div class="carousel__container">
+                <ul class="carousel__container_track">
+                    <li class="carousel__slide">
+                        <img class="carousel__slide_img" src="./images/nail-1.jpeg" alt="Nail 1"></li>
+                    <li class="carousel__slide">
+                        <img class="carousel__slide_img" src="./images/nail-2.jpeg" alt="Nail 2"></li>
+                    <li class="carousel__slide">
+                        <img class="carousel__slide_img" src="./images/nail-3.jpeg" alt="Nail 3"></li>
+                </ul>                
+            </div>
+            <button class="carousel__button carousel__button-right">
+                <img src="./images/right-arrow.svg" alt="slide-right">
+            </button>
+            <div class="carousel__nav">
+                <button class="carousel__nav_indicator current-slide"></button>
+                <button class="carousel__nav_indicator"></button>
+                <button class="carousel__nav_indicator"></button>
+            </div>
+        </div>
+    </main>
+    <script src="js/carousel.js"></script>
+</body>
+
+</html>

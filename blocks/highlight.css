@@ -1,0 +1,15 @@
+.highlight {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+.highlight__video {
+    padding: 20px;
+    outline: 2px solid black;
+    max-width: 700px;
+}

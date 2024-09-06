@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+:root {
+    --primary-color: #504ac2;
+    --secondary-color: #3d5877;
+    --accent1-color: #92bcaf;
+    --accent2-color: #419562;
+    
+    --heading-font: "Sofia Sans Condensed", san-serif;
+    --paragraph-font: "Noto Serif Display", serif;
+
+    --nav-background-color: #9adc60;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #4aa342;
+}
+
+body {
+    font-family: var(--heading-font);
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: var(--paragraph-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.navbar {
+    display: grid;
+    max-width: 1000px;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto 20px;
+    font-size: 30px;
+}
+
+.navbar a {
+    color: var(--nav-link-color);
+}
