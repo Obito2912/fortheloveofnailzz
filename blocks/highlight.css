@@ -1,7 +1,8 @@
 .highlight {
-    display: grid;
-    place-items: center;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     font-weight: 900;
     font-size: 50px;
     max-width: 900px;
@@ -11,5 +12,5 @@
 .highlight__video {
     padding: 20px;
     outline: 2px solid black;
-    max-width: 700px;
+    max-width: 80%;
 }

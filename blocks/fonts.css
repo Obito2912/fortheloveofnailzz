@@ -17,8 +17,8 @@
 
 body {
     font-family: var(--heading-font);
-    font-weight: 200;
-    font-size: 1.3rem;
+    /* font-weight: 200; */
+    /* font-size: 1.3rem; */
 }
 
 h1, 
@@ -28,6 +28,6 @@ h4,
 h5, 
 h6 {
     font-family: var(--paragraph-font);
-    font-size: 1.8rem;
-    font-weight: 500;
+    /* font-size: 1.8rem; */
+    /* font-weight: 500; */
 }
