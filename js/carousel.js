@@ -14,6 +14,10 @@ const setSlidePosition = (slide, index) => {
 };
 slides.forEach(setSlidePosition);
 
+// Set initial state
+slides[0].classList.add('current-slide');
+navIndicators[0].classList.add('current-slide');
+
 // Function to move the slide
 const moveToSlide = (track, currentSlide, targetSlide) => {
     track.style.transform = `translateX(-${targetSlide.style.left})`;
@@ -37,6 +41,10 @@ nextButton.addEventListener('click', () => {
     if (nextSlide) {
         moveToSlide(track, currentSlide, nextSlide);
         updateIndicators(currentIndicator, nextIndicator);
+    } else {
+        // Reset to the first slide if there is no next slide
+        moveToSlide(track, currentSlide, slides[0]);
+        updateIndicators(currentIndicator, navIndicators[0]);
     }
 });
 
@@ -50,6 +58,10 @@ prevButton.addEventListener('click', () => {
     if (prevSlide) {
         moveToSlide(track, currentSlide, prevSlide);
         updateIndicators(currentIndicator, prevIndicator);
+    } else {
+        // Reset to the last slide if there is no previous slide
+        moveToSlide(track, currentSlide, slides[slides.length - 1]);
+        updateIndicators(currentIndicator, navIndicators[navIndicators.length - 1]);
     }
 });
 
